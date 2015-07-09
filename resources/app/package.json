@@ -1,0 +1,13 @@
+{
+  "name": "your-app",
+  "version": "0.1.0",
+  "main": "main.js",
+  "devDependencies": {
+    "cucumber": "^0.5.2"
+  },
+  "dependencies": {
+    "chai": "^3.0.0",
+    "cucumber": "^0.5.2",
+    "sanitize-filename": "^1.3.0"
+  }
+}
