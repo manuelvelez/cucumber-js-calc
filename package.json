@@ -2,15 +2,18 @@
   "name": "your-app",
   "version": "0.1.0",
   "main": "main.js",
-  "config": { "port" : "9515",
-	      "binary" : "/home/mvelezm/proyectos/electron-dist/electron" },
+  "config": {
+    "port": "9515",
+    "binary": "/home/mvelezm/proyectos/electron-dist/electron"
+  },
   "devDependencies": {
     "cucumber": "^0.5.2"
   },
   "dependencies": {
     "chai": "^3.0.0",
     "cucumber": "^0.5.2",
-    "sanitize-filename": "^1.3.0"
+    "sanitize-filename": "^1.3.0",
+    "selenium-webdriver": "^2.46.1"
   },
   "scripts": {
     "test": "./node_modules/.bin/cucumber.js"
