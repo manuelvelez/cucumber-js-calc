@@ -23,8 +23,8 @@ var buildChromeDriver = function() {
 };
 
 var buildElectronDriver = function() {
-console.log('http://localhost:'+process.env.npm_package_config_port);
-console.log(process.env.npm_package_config_binary);
+//console.log('http://localhost:'+process.env.npm_package_config_port);
+//console.log(process.env.npm_package_config_binary);
 return new webdriver.Builder()
   .usingServer('http://localhost:'+process.env.npm_package_config_port)
   .withCapabilities({chromeOptions: {
