@@ -24,4 +24,4 @@ Examples:
 	|   4     |    minus  |    0    |    4   |
 	|   5     |    minus  |    9    |   -4   |
 	|   3     |    times  |    4    |   12   |
-	|   10    |    div    |    5    |    1   |
+	|   10    |    div    |    5    |    2   |

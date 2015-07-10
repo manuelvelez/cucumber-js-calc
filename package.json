@@ -17,6 +17,6 @@
     "selenium-webdriver": "^2.46.1"
   },
   "scripts": {
-    "test": "node ./node_modules/.bin/cucumber-js -f json | node_modules/.bin/cucumber-junit > cucumber.xml"
+    "test": "node ./node_modules/.bin/cucumber-js"
   }
 }
